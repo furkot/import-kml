@@ -14,7 +14,9 @@
     "kml",
     "furkot"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "sax-stream": "^1.2.2"
+  },
   "devDependencies": {
     "jshint": "^2.9.4",
     "mocha": "^3.2.0",

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="tripFolder">
+   <ListStyle>
+      <ItemIcon>
+         <href>http://www.everytrail.com/images/everytrail_icon.png</href>
+      </ItemIcon>
+   </ListStyle>
+</Style>
+
+<Style id="picturesFolder">
+   <ListStyle>
+      <ItemIcon>
+         <href>http://www.everytrail.com/images/photo.jpeg</href>
+      </ItemIcon>
+   </ListStyle>
+</Style>
+
+
+<Style id="tripBalloonHighlight">
+               <LabelStyle>         
+                  <color>ffffffff</color>
+                  <colorMode>normal</colorMode>
+                  <scale>1</scale>
+               </LabelStyle>
+               <BalloonStyle>
+                  <text>
+                     <![CDATA[<table width=400 border=0 cellpadding=0 cellspacing=0>
+                                 <tr>
+                                    <td>
+                                       <img src="http://www.everytrail.com/images/small_logo_text.gif">
+                                    </td>
+                                 </tr>
+                                 <tr>                              
+                                    <td>
+                                       <font color="#3198E0" size="+2"><b>$[name]</b></font> <a href="$[kmlLink];balloonFlyto"><img src="http://www.everytrail.com/images/next.png" border=0></a>
+                                       &nbsp;&nbsp;&nbsp; 
+                                       <a href="$[kmlLink];balloonFlyto">play trip</a>
+                                       <br>
+                                       by <a href="http://www.everytrail.com//profile.php?user_id=$[userId]">$[username]</a> on $[tripDate]<br>
+                                       <font color="#888888">$[location]</font>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <font size=+1>$[description]</font>
+                                       <center>
+                                          <table cellpadding=2 cellspacing=0>
+                                             <tr>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic1Link]">
+                                                      $[pic1Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic2Link]">
+                                                      $[pic2Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic3Link]">
+                                                      $[pic3Src]
+                                                   </a>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic4Link]">
+                                                      $[pic4Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic5Link]">
+                                                      $[pic5Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic6Link]">
+                                                      $[pic6Src]
+                                                   </a>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </center>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       $[activity]
+                                       $[length]
+               
+                                       <br>
+                                       <a href="http://www.everytrail.com">Upload your trips to EveryTrail</a>
+                                    </td>
+                                 </tr>
+                              </table>
+                     ]]>
+                  </text>
+                  <color>ffffffff</color>
+               </BalloonStyle>
+               <IconStyle>
+                  <Icon>
+                     <href>http://www.everytrail.com/images/everytrail_logo.png</href>
+                  </Icon>
+                  <scale>.7</scale>
+               </IconStyle>
+            </Style>
+            
+<Style id="tripBalloonNormal">
+               <LabelStyle>         
+                  <color>ffffffff</color>
+                  <colorMode>normal</colorMode>
+                  <scale>0</scale>
+               </LabelStyle>
+               <BalloonStyle>
+                  <text>
+                     <![CDATA[<table width=400 border=0 cellpadding=0 cellspacing=0>
+                                 <tr>
+                                    <td>
+                                       <img src="http://www.everytrail.com/images/small_logo_text.gif">
+                                    </td>
+                                 </tr>
+                                 <tr>                              
+                                    <td>
+                                       <font color="#3198E0" size="+2"><b>$[name]</b></font> <a href="$[kmlLink];balloonFlyto"><img src="http://www.everytrail.com/images/next.png" border=0></a>
+                                       &nbsp;&nbsp;&nbsp; 
+                                       <a href="$[kmlLink];balloonFlyto">play trip</a>
+										<br>
+                                       by <a href="http://www.everytrail.com//profile.php?user_id=$[userId]">$[username]</a> on $[tripDate]<br>
+                                       <font color="#888888">$[location]</font>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <font size=+1>$[description]</font>
+                                       <center>
+                                          <table cellpadding=2 cellspacing=0>
+                                             <tr>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic1Link]">
+                                                      $[pic1Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic2Link]">
+                                                      $[pic2Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic3Link]">
+                                                      $[pic3Src]
+                                                   </a>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic4Link]">
+                                                      $[pic4Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic5Link]">
+                                                      $[pic5Src]
+                                                   </a>
+                                                </td>
+                                                <td align=center valign=center>
+                                                   <a href="$[pic6Link]">
+                                                      $[pic6Src]
+                                                   </a>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </center>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       $[activity]
+                                       $[length]
+               
+                                       <br>
+                                       <a href="http://www.everytrail.com">Upload your trips to EveryTrail</a>
+                                    </td>
+                                 </tr>
+                              </table>
+                     ]]>
+                  </text>
+                  <color>ffffffff</color>
+               </BalloonStyle>
+              <IconStyle>
+                  <Icon>
+                     <href>http://www.everytrail.com/images/everytrail_logo.png</href>
+                  </Icon>
+                  <scale>.7</scale>
+               </IconStyle>
+</Style>
+
+
+<Style id="line">
+   <LineStyle>
+      <color>FF0000FF</color>
+      <width>4</width>
+   </LineStyle>
+   <PolyStyle>
+      <color>660000FF</color>
+      <colorMode>normal</colorMode>
+      <fill>1</fill>
+      <outline>1</outline>
+   </PolyStyle>
+</Style>
+
+<Style id="waypointBalloonNormal">
+   <LabelStyle>
+      <color>ffffffff</color>
+      <colorMode>normal</colorMode>
+      <scale>0</scale>
+   </LabelStyle>
+   <BalloonStyle>
+      <text><![CDATA[$[description]]]></text>
+      <color>ffffffff</color>
+   </BalloonStyle>
+   <IconStyle>
+      <Icon>
+         <href>http://www.everytrail.com/images/waypoint.gif</href>
+      </Icon>
+   </IconStyle>
+</Style>
+
+<Style id="waypointBalloonHighlight">
+   <LabelStyle>
+      <color>ffffffff</color>
+      <colorMode>normal</colorMode>
+      <scale>1</scale>
+   </LabelStyle>
+   <BalloonStyle>
+      <text><![CDATA[$[description]]]></text>
+      <color>ffffffff</color>
+   </BalloonStyle>
+   
+   <IconStyle>
+      <Icon>
+         <href>http://www.everytrail.com/images/waypoint.gif</href>
+      </Icon>
+   </IconStyle>
+</Style>
+
+<Style id="pictureBalloonHighlight">
+   <LabelStyle>
+      <color>ffffffff</color>
+      <colorMode>normal</colorMode>
+      <scale>1</scale>
+   </LabelStyle>
+   <BalloonStyle>
+      <text>
+
+          <![CDATA[
+<table  border=0 cellpadding=0 cellspacing=0>
+                                 <tr>
+                                    <td>
+                                       <img src="http://www.everytrail.com/images/small_logo_text.gif">
+                                    </td>
+                                    <td align="right" valign="center">
+                                       <table border=0 cellspacing=0 cellpadding=3 >
+                                          <tr>
+                                             <td>
+                                                <a href="$[prevLink];balloonFlyto">
+                                                   $[prevImg]
+                                                </a>
+                                             </td>
+                                             <td valign=center><font size=+0><b>$[pic_num]</b> of $[total_pics]</font></td>
+                                             <td>
+                                                <a href="$[nextLink];balloonFlyto">
+                                                   $[nextImg]
+                                                </a>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2 valign="center">
+                                       <img src="$[image]" width="$[image_width]">
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2>
+                                       <font color="#3198E0" size="+2"><b>$[name]</b></font>
+                                       <br>
+                                       by <a href="http://www.everytrail.com//profile.php?user_id=$[userId]">$[username]</a>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2>
+                                       $[description]
+                                       <br>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <a href="http://www.everytrail.com/view_picture.php?picture_id=$[pictureId]">Comment</a> |
+                                       <a href="http://www.everytrail.com/view_picture.php?picture_id=$[pictureId]">Vote</a> |
+                                       <a href="http://www.everytrail.com/view_picture.php?picture_id=$[pictureId]">Inappropriate</a>
+                                    </td>
+                                    <td align=right>
+                                       <a href="http://www.everytrail.com">Upload your trips to EveryTrail</a>
+                                    </td>
+                                 </tr>
+                              </table>]]>
+
+           </text>
+      <color>ffffffff</color>
+   </BalloonStyle>
+   <IconStyle>
+      <Icon>
+         <href>http://www.everytrail.com/images/marker.gif</href>
+      </Icon>
+      <scale>.7</scale>
+   </IconStyle>
+</Style>
+
+
+<Style id="pictureBalloonNormal">
+   <LabelStyle>
+      <color>ffffffff</color>
+      <colorMode>normal</colorMode>
+      <scale>1</scale>
+   </LabelStyle>
+   <BalloonStyle>
+      <text>
+
+          <![CDATA[
+<table  border=0 cellpadding=0 cellspacing=0>
+                                 <tr>
+                                    <td>
+                                       <img src="http://www.everytrail.com/images/small_logo_text.gif">
+                                    </td>
+                                    <td align="right" valign="center">
+                                       <table border=0 cellspacing=0 cellpadding=3 >
+                                          <tr>
+                                             <td>
+                                                <a href="$[prevLink];balloonFlyto">
+                                                   $[prevImg]
+                                                </a>
+                                             </td>
+                                             <td valign=center><font size=+0><b>$[pic_num]</b> of $[total_pics]</font></td>
+                                             <td>
+                                                <a href="$[nextLink];balloonFlyto">
+                                                   $[nextImg]
+                                                </a>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2 valign="center">
+                                       <img src="$[image]" width="$[image_width]">
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2>
+                                       <font color="#3198E0" size="+2"><b>$[name]</b></font>
+                                       <br>
+                                       by <a href="http://www.everytrail.com//profile.php?user_id=$[userId]">$[username]</a>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2>
+                                       $[description]
+                                       <br>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <a href="http://www.everytrail.com/view_picture.php?picture_id=$[pictureId]">Comment</a> |
+                                       <a href="http://www.everytrail.com/view_picture.php?picture_id=$[pictureId]">Vote</a> |
+                                       <a href="http://www.everytrail.com/view_picture.php?picture_id=$[pictureId]">Inappropriate</a>
+                                    </td>
+                                    <td align=right>
+                                       <a href="http://www.everytrail.com">Upload your trips to EveryTrail</a>
+                                    </td>
+                                 </tr>
+                              </table>]]>
+
+           </text>
+      <color>ffffffff</color>
+   </BalloonStyle>
+   <IconStyle>
+      <Icon>
+         <href>http://www.everytrail.com/images/marker.gif</href>
+      </Icon>
+      <scale>.6</scale>
+   </IconStyle>
+</Style>
+
+<Style id="videoBalloonHighlight">
+   <LabelStyle>
+      <color>ffffffff</color>
+      <colorMode>normal</colorMode>
+      <scale>1</scale>
+   </LabelStyle>
+   <BalloonStyle>
+      <text>
+
+          <![CDATA[
+<table  border=0 cellpadding=0 cellspacing=0>
+                                 <tr>
+                                    <td>
+                                       <img src="http://www.everytrail.com/images/small_logo_text.gif">
+                                    </td>
+                                    <td align="right" valign="center">
+                                       <table border=0 cellspacing=0 cellpadding=3 >
+                                          <tr>
+                                             <td>
+                                                <a href="$[prevLink];balloonFlyto">
+                                                   $[prevImg]
+                                                </a>
+                                             </td>
+                                             <td valign=center><font size=+0><b>$[pic_num]</b> of $[total_pics]</font></td>
+                                             <td>
+                                                <a href="$[nextLink];balloonFlyto">
+                                                   $[nextImg]
+                                                </a>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2 valign="center">
+								
+									<object width="500" height="306"><param name="movie" value="http://www.youtube.com/v/$[video]?>&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/$[video]&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="306"></embed></object>
+									
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2>
+                                       <font color="#3198E0" size="+2"><b>$[name]</b></font>
+                                       <br>
+                                       by <a href="http://www.everytrail.com//profile.php?user_id=$[userId]">$[username]</a>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan=2>
+                                       $[description]
+                                       <br>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <a href="http://www.everytrail.com/video/view?video_id=$[pictureId]">Comment</a> |
+                                       <a href="http://www.everytrail.com/video/view?video_id=$[pictureId]">Vote</a> |
+                                       <a href="http://www.everytrail.com/video/view?video_id=$[pictureId]">Inappropriate</a>
+                                    </td>
+                                    <td align=right>
+                                       <a href="http://www.everytrail.com">Upload your trips to EveryTrail</a>
+                                    </td>
+                                 </tr>
+                              </table>]]>
+
+           </text>
+      <color>ffffffff</color>
+   </BalloonStyle>
+   <IconStyle>
+      <Icon>
+         <href>http://www.everytrail.com/images/marker.gif</href>
+      </Icon>
+      <scale>.7</scale>
+   </IconStyle>
+</Style>
+
+<StyleMap id="waypointStyleMap">
+   <Pair>
+      <key>normal</key>
+      <styleUrl>#waypointBalloonNormal</styleUrl>
+   </Pair>
+   <Pair>
+      <key>highlight</key>
+      <styleUrl>#waypointBalloonHighlight</styleUrl>
+   </Pair>
+ </StyleMap>
+ 
+ <StyleMap id="pictureStyleMap">
+   <Pair>
+      <key>normal</key>
+      <styleUrl>#pictureBalloonNormal</styleUrl>
+   </Pair>
+   <Pair>
+      <key>highlight</key>
+      <styleUrl>#pictureBalloonHighlight</styleUrl>
+   </Pair>
+ </StyleMap>
+ 
+ <StyleMap id="tripStyleMap">
+   <Pair>
+      <key>normal</key>
+      <styleUrl>#tripBalloonNormal</styleUrl>
+   </Pair>
+   <Pair>
+      <key>highlight</key>
+      <styleUrl>#tripBalloonHighlight</styleUrl>
+   </Pair>
+ </StyleMap><name>Trip set</name>   <LookAt>
+      <longitude>18.49863214</longitude>
+      <latitude>54.34437342</latitude>
+      <altitude>0</altitude>
+      <range>4000</range>
+      <tilt>45</tilt>
+      <heading>-60.176328741189</heading>
+      <altitudeMode>relativeToGround</altitudeMode>
+   </LookAt>
+<Folder>
+<name><![CDATA[Spacer]]></name>
+<Placemark id="trip2814044">
+<name><![CDATA[Spacer]]></name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility><ExtendedData>
+   <Data name='username'>
+     <value><![CDATA[pirxpilot]]></value>
+   </Data>
+   <Data name='userId'>
+     <value>149364</value>
+   </Data>
+   <Data name='tripDate'>
+     <value>Jun 08, 2014</value>
+   </Data>
+   <Data name='location'>
+     <value><![CDATA[<br>]]></value>
+   </Data>
+   <Data name='kmlLink'>
+     <value>#trip2814044_picture1</value>
+   </Data>
+   <Data name='activity'>
+     <value><![CDATA[<b>Activity:</b> <br>]]></value>
+   </Data>
+   <Data name='tripId'>
+     <value>2814044</value>
+   </Data>
+   <Data name='length'>
+     <value><![CDATA[<b>Length:</b> 2.2 miles / 3.5 km<br>]]></value>
+   </Data>
+   <Data name='pic1Link'>
+     <value>#trip2814044_picture1;balloonFlyto</value>
+   </Data>
+   <Data name='pic1Src'>
+     <value></value>
+   </Data>
+   <Data name='pic2Link'>
+     <value>#trip2814044_picture2;balloonFlyto</value>
+   </Data>
+   <Data name='pic2Src'>
+     <value></value>
+   </Data>
+   <Data name='pic3Link'>
+     <value>#trip2814044_picture3;balloonFlyto</value>
+   </Data>
+   <Data name='pic3Src'>
+     <value></value>
+   </Data>
+   <Data name='pic4Link'>
+     <value>#trip2814044_picture4;balloonFlyto</value>
+   </Data>
+   <Data name='pic4Src'>
+     <value></value>
+   </Data>
+   <Data name='pic5Link'>
+     <value>#trip2814044_picture5;balloonFlyto</value>
+   </Data>
+   <Data name='pic5Src'>
+     <value></value>
+   </Data>
+   <Data name='pic6Link'>
+     <value>#trip2814044_picture6;balloonFlyto</value>
+   </Data>
+   <Data name='pic6Src'>
+     <value></value>
+   </Data>
+</ExtendedData>
+<Snippet maxLines="2"><![CDATA[]]></Snippet>
+<styleUrl>#tripBalloonHighlight</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>18.49863214,54.34437342</coordinates>
+</Point>
+</Placemark>
+<styleUrl>#tripFolder</styleUrl><Folder>
+<name>Tracks</name>
+<Placemark id="trip2814044_track6619114">   <description><![CDATA[ Length: 2.2 ]]></description>   <name><![CDATA[new track 2014-06-08 18:49:58]]></name>   <styleUrl>#line</styleUrl>   <visibility>1</visibility>   <open>0</open>   <LineString>      <extrude>0</extrude>      <tessellate>1</tessellate>      <altitudeMode>clampedToGround </altitudeMode>      <coordinates>
+18.49863214,54.34437342
+18.49867303,54.34443781
+18.49850151,54.34443498
+18.49837514,54.34443005
+18.49827222,54.34442998
+18.49816428,54.34444222
+18.49803322,54.34446708
+18.49791373,54.34447932
+18.49782988,54.3444941
+18.49774713,54.34450839
+18.49763066,54.34454234
+18.49753804,54.34455872
+18.49739879,54.34457016
+18.49730849,54.34457793
+18.49718084,54.34458775
+18.4970637,54.34460628
+18.49695443,54.34463435
+18.49683024,54.34465552
+18.49669211,54.34463762
+18.49665359,54.3445974
+18.49659284,54.34451732
+18.49650601,54.34448355
+18.49642609,54.34448694
+18.49633682,54.34449374
+18.49624854,54.34448532
+18.4961663,54.34446903
+18.49602361,54.34445782
+18.49594915,54.34444419
+18.495799,54.34443928
+18.49565794,54.34444297
+18.49562486,54.34448511
+18.49555778,54.34452059
+18.49546246,54.34454538
+18.49540818,54.34459505
+18.49539297,54.34468215
+18.49536698,54.34473222
+18.49534456,54.34478411
+18.49532194,54.34483426
+18.4952986,54.34487812
+18.49524733,54.34492543
+18.49584182,54.34512555
+18.49587211,54.34507324
+18.49596916,54.34502472
+18.49606447,54.34501634
+18.49613074,54.34506031
+18.49626669,54.34507004
+18.49640355,54.34506395
+18.49649526,54.34505299
+18.49657327,54.34502983
+18.49717945,54.34504342
+18.4973409,54.34505303
+18.4974316,54.34506028
+18.49752159,54.34506193
+18.49766034,54.34505919
+18.49759,54.34503834
+18.49746366,54.34503321
+18.49734764,54.3450372
+18.49724336,54.34504691
+18.49734052,54.34504848
+18.49746769,54.34505146
+18.49761152,54.34505279
+18.49769062,54.34506397
+18.49782996,54.34507257
+18.49796163,54.3450786
+18.49808894,54.34508661
+18.4982078,54.34507136
+18.4982905,54.34506693
+18.49838835,54.34506296
+18.49847525,54.34505702
+18.49854591,54.34495939
+18.49863914,54.34490604
+18.49874103,54.34485257
+18.49887161,54.34480709
+18.49896055,54.34478401
+18.49908902,54.34475029
+18.49922206,54.34472922
+18.49931391,54.3447048
+18.49940932,54.34466857
+18.49951197,54.34461045
+18.4996272,54.34458047
+18.49972379,54.34452968
+18.49979659,54.34450152
+18.49986992,54.34448758
+18.49997391,54.3444401
+18.50004545,54.34440349
+18.50014432,54.3443801
+18.50022687,54.34436553
+18.50034553,54.34432029
+18.50042226,54.34427423
+18.50050438,54.34422654
+18.50062288,54.34418296
+18.50066716,54.34414266
+18.50079437,54.34410088
+18.5009088,54.34405691
+18.50097623,54.34403329
+18.50109956,54.34402133
+18.50118829,54.34397429
+18.50127284,54.34399639
+18.50129849,54.34407421
+18.50138069,54.34414495
+18.50143457,54.34418644
+18.5014973,54.34423774
+18.50154421,54.34428957
+18.50160433,54.34433836
+18.50167319,54.34439015
+18.50175123,54.34444322
+18.50179421,54.34448966
+18.50182085,54.34454227
+18.50182486,54.34460821
+18.50179899,54.34465163
+18.50171253,54.34468081
+18.50163948,54.34473887
+18.5016624,54.34480256
+18.50171016,54.34485766
+18.50175584,54.34491233
+18.50180964,54.3449754
+18.50184124,54.34505261
+18.50187645,54.34511998
+18.50189852,54.3451895
+18.50193256,54.3452556
+18.50193938,54.34533476
+18.50193093,54.3454085
+18.50195965,54.34548636
+18.50196935,54.34555384
+18.50197476,54.34562339
+18.5019637,54.34570124
+18.50199638,54.34576777
+18.50199438,54.34581711
+18.5020231,54.34586937
+18.50204653,54.34594771
+18.50205494,54.34601887
+18.50205956,54.34607001
+18.50209512,54.34614253
+18.50211314,54.34622251
+18.50215587,54.34627326
+18.50217425,54.3463446
+18.50217109,54.34639109
+18.50215836,54.34646996
+18.50215722,54.3465189
+18.50212731,54.34660582
+18.50211766,54.34665379
+18.50214605,54.34671115
+18.50213887,54.3467828
+18.50214392,54.34686303
+18.50213329,54.3469197
+18.50207051,54.34701015
+18.5019774,54.34705565
+18.5018517,54.34706878
+18.50178818,54.34710435
+18.50171831,54.34706357
+18.50164065,54.34701685
+18.50157368,54.34696825
+18.50149634,54.34692621
+18.50141669,54.34687841
+18.50134018,54.34682822
+18.50124876,54.34679011
+18.50115633,54.34673925
+18.50110091,54.34670765
+18.50101171,54.3466816
+18.50088902,54.34664769
+18.50078149,54.34661913
+18.50067062,54.34661217
+18.50057446,54.34660532
+18.50047978,54.34659145
+18.50039137,54.34658083
+18.50028195,54.34655301
+18.50015939,54.34652983
+18.50003796,54.34653224
+18.4999255,54.34655863
+18.49980428,54.34658329
+18.49971151,54.34663805
+18.49960639,54.34668128
+18.49951853,54.34673078
+18.49943599,54.34678609
+18.49933169,54.34683122
+18.49923644,54.34688044
+18.49913726,54.34692436
+18.4990413,54.34695473
+18.49893725,54.34698815
+18.49884635,54.34702404
+18.49877102,54.34703883
+18.49865773,54.34705286
+18.49856544,54.34706308
+18.49847528,54.34704562
+18.49837745,54.34704922
+18.49829135,54.34706177
+18.49820303,54.34707192
+18.49809624,54.34707486
+18.49799668,54.34708402
+18.49789288,54.34709161
+18.49778533,54.34710183
+18.49768249,54.34710158
+18.49759253,54.34708955
+18.49751486,54.34709581
+18.49743154,54.34707831
+18.49732544,54.34706929
+18.49721774,54.347049
+18.49711332,54.34703512
+18.49701447,54.34699539
+18.49690674,54.34695223
+18.4968096,54.34690425
+18.49675693,54.34684339
+18.49671096,54.34679083
+18.49666655,54.34674591
+18.49661351,54.34670966
+18.49654521,54.34665417
+18.49648184,54.34660208
+18.49641676,54.34654148
+18.49632033,54.34649713
+18.49623301,54.34646096
+18.49613724,54.34642907
+18.49604306,54.34640373
+18.49595308,54.34638103
+18.49585614,54.3463645
+18.49576073,54.34634409
+18.49566315,54.34631857
+18.49557199,54.34629576
+18.49547843,54.34626917
+18.49537343,54.34623312
+18.49527415,54.34619616
+18.49516197,54.34615316
+18.49505975,54.3461157
+18.49496198,54.34607994
+18.49485974,54.34604695
+18.49476943,54.34601841
+18.49465242,54.34598918
+18.4945421,54.34596916
+18.49442222,54.34596275
+18.49431032,54.34600023
+18.49422678,54.34605531
+18.49420727,54.34611926
+18.49419195,54.34617466
+18.49417416,54.34622824
+18.4941723,54.34628484
+18.49415738,54.34633856
+18.49410385,54.34640012
+18.49411352,54.34646335
+18.4941153,54.34652633
+18.49406944,54.34666499
+18.49405747,54.34673283
+18.49404268,54.34680497
+18.49405704,54.34687511
+18.49407161,54.34692227
+18.49407014,54.34697246
+18.49407238,54.34702603
+18.49407034,54.3470764
+18.49407549,54.34712456
+18.49405335,54.34717329
+18.49402584,54.34721961
+18.49400791,54.34728561
+18.49395565,54.3473444
+18.49387886,54.34742291
+18.49382074,54.34746554
+18.49384362,54.34751606
+18.49387221,54.34755937
+18.49386846,54.34761315
+18.49384982,54.3476792
+18.49384426,54.34772637
+18.49380314,54.3477801
+18.49376461,54.34784413
+18.49374655,54.34791039
+18.49374734,54.34798383
+18.49370702,54.34805287
+18.49362759,54.34805465
+18.49353924,54.34800926
+18.49348807,54.34797375
+18.4934015,54.34794193
+18.49332779,54.34792246
+18.49324927,54.34789526
+18.49315006,54.34786939
+18.49304557,54.34782904
+18.4929669,54.34780095
+18.49288927,54.34775271
+18.49280843,54.3477075
+18.49275015,54.34767062
+18.49263854,54.34760257
+18.49250309,54.34758701
+18.49240679,54.34761022
+18.4923323,54.34765579
+18.49224203,54.34765085
+18.49218102,54.34771065
+18.49210238,54.34778073
+18.49202234,54.34783508
+18.49194714,54.34787569
+18.49185253,54.34790695
+18.49176636,54.3479017
+18.49170921,54.34795849
+18.49166949,54.34799983
+18.49158784,54.34806378
+18.49151058,54.34808227
+18.49134209,54.34808457
+18.49121409,54.34806432
+18.49112695,54.34805865
+18.4910621,54.34808646
+18.49102081,54.34812604
+18.49095274,54.34817516
+18.49095331,54.3482543
+18.49096734,54.3483029
+18.49095793,54.3483496
+18.49092008,54.34839667
+18.49093035,54.34844265
+18.49096437,54.34849101
+18.49097936,54.34853608
+18.49093757,54.34859506
+18.49081814,54.34867334
+18.49072701,54.34870777
+18.49060405,54.34872097
+18.49050815,54.3487179
+18.49039605,54.3486915
+18.49028697,54.34867276
+18.49018227,54.34867825
+18.4900696,54.34867099
+18.48994964,54.34866142
+18.489833,54.34865538
+18.48974251,54.34866866
+18.48963807,54.34863848
+18.48953979,54.34861344
+18.48943816,54.34861829
+18.48931086,54.34860675
+18.48922506,54.34859735
+18.48918308,54.34854304
+18.48913135,54.34848153
+18.4891022,54.34842963
+18.48906137,54.34837286
+18.4890161,54.34830251
+18.48896439,54.34825283
+18.48893743,54.34819917
+18.4888838,54.34813782
+18.48883947,54.34805597
+18.48880704,54.34798106
+18.48876568,54.34791138
+18.48874187,54.34784269
+18.48871287,54.34777654
+18.48863086,54.34774308
+18.4885976,54.34768566
+18.48854951,54.34763387
+18.48851853,54.34758765
+18.48850925,54.34752031
+18.48848739,54.34745685
+18.48844211,54.34738497
+18.48839144,54.34733102
+18.48837105,54.3472807
+18.48834396,54.3472181
+18.48831828,54.34715353
+18.4882958,54.34709731
+18.4882724,54.34702794
+18.48823488,54.34697058
+18.4882023,54.34691606
+18.48821385,54.34684724
+18.48824046,54.34679659
+18.48827898,54.3467461
+18.48830099,54.34670001
+18.48830622,54.34662936
+18.48829456,54.34655555
+18.48832187,54.34648615
+18.48840536,54.34643075
+18.48850685,54.34639119
+18.48863243,54.34635896
+18.48872494,54.3463239
+18.48883112,54.34630487
+18.48896431,54.34629646
+18.48907146,54.34626497
+18.48919512,54.34625728
+18.48930675,54.34623227
+18.48940616,54.34620128
+18.48948804,54.34616276
+18.48958546,54.34613194
+18.4897015,54.3461153
+18.48981589,54.34610577
+18.48992618,54.34609901
+18.49000728,54.34606374
+18.49003756,54.34600606
+18.4900149,54.34593868
+18.48996742,54.34587612
+18.4899156,54.34582068
+18.48989544,54.34576092
+18.48988685,54.34570334
+18.48987748,54.34563829
+18.48987478,54.34556912
+18.48983919,54.34551387
+18.48981675,54.34545457
+18.48979495,54.3453877
+18.4897764,54.34532759
+18.48977121,54.34525784
+18.48975784,54.34518433
+18.4897418,54.34512964
+18.48973132,54.34507599
+18.4897022,54.3450327
+18.4896885,54.34497262
+18.48965599,54.34490657
+18.48962615,54.34484398
+18.48970377,54.34478739
+18.48979377,54.3447664
+18.48988638,54.34474916
+18.49000241,54.34474175
+18.49008982,54.34473205
+18.49021142,54.34474063
+18.49032061,54.34474919
+18.49044035,54.34476289
+18.49054026,54.34476971
+18.4906568,54.34474142
+18.49076187,54.34474998
+18.49086293,54.34475516
+18.49097436,54.34475564
+18.49107229,54.34476568
+18.49116019,54.3447671
+18.49126957,54.34478773
+18.49138289,54.34479786
+18.49149742,54.34481463
+18.4916151,54.34483218
+18.49174425,54.3448535
+18.49188495,54.34487918
+18.49196763,54.34489751
+18.49207399,54.34492748
+18.49219742,54.34494346
+18.49231307,54.34494339
+18.49240942,54.34495757
+18.49250766,54.34498183
+18.49259219,54.34501625
+18.49266075,54.34506403
+18.49273584,54.34509447
+18.49287329,54.34511503
+18.49300703,54.34513053
+18.49312909,54.34513839
+18.49326925,54.34515205
+18.49340071,54.34515382
+18.49352965,54.34513347
+18.49365873,54.34512619
+18.49376641,54.34513488
+18.4938753,54.34512714
+18.49398366,54.34512305
+18.49410186,54.34512045
+18.49422401,54.34510996
+18.49433949,54.3451082
+18.49448582,54.34509885
+18.49462161,54.34509016
+18.49473889,54.34507665
+18.49487552,54.34506601
+18.4949835,54.3450508
+18.49510613,54.3450321
+18.49521411,54.34500319
+18.49531293,54.34497175
+18.49539595,54.34492368
+18.49549425,54.344868
+18.4955733,54.34481539
+18.49556332,54.34470852
+18.49554393,54.34464765
+18.49552325,54.34458795
+18.49556601,54.34452452
+18.49566659,54.34448268
+18.49580071,54.34446455
+18.49587925,54.34447333
+18.4959815,54.34449016
+18.49609069,54.3444941
+18.49619098,54.34449416
+18.4962834,54.34447467
+18.49640358,54.3444698
+18.49651956,54.34448254
+18.49656739,54.34453121
+18.49658634,54.34458526
+18.49656543,54.34463699
+18.49663656,54.34468494
+18.49677038,54.34467941
+18.49687735,54.34468563
+18.49697002,54.34467284
+18.49708543,54.34466033
+18.49718952,54.3446413
+18.49728415,54.34463029
+18.49740202,54.34462114
+18.4975204,54.34461277
+18.49767294,54.34460547
+18.49775962,54.3445908
+18.49786184,54.34456897
+18.49795914,54.34454826
+18.49804851,54.34452795
+18.49815201,54.34450915
+18.49824046,54.34447937
+18.49831978,54.34445642
+18.49841685,54.3444376
+18.49849921,54.34441669
+      </coordinates>   </LineString></Placemark>
+</Folder>
+</Folder>
+</Document>
+</kml>

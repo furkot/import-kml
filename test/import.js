@@ -1,9 +1,50 @@
 var should = require('should');
-var furkotImportKml = require('../');
+var fs = require('fs');
+var parse = require('..');
 
-describe('furkot-import-kml node module', function () {
-  it('must have at least one test', function () {
-    furkotImportKml();
-    should.fail('Need to write tests.');
+describe('furkot import kml', function() {
+  it('should parse kml', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/usa.kml');
+    parse(stream, function(err, trip) {
+      var expected = require('./fixtures/usa.json');
+
+      should.not.exist(err);
+      should.exist(trip);
+      trip.should.eql(expected);
+      done();
+    });
+  });
+
+  it('should parse kml with folders', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/et.kml');
+    parse(stream, function(err, trip) {
+      var expected = require('./fixtures/et.json');
+
+      should.not.exist(err);
+      should.exist(trip);
+      trip.should.eql(expected);
+      done();
+    });
+  });
+
+  it('should parse kml no container', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/placemark.kml');
+    parse(stream, function(err, trip) {
+      var expected = {
+        stops: [{
+          coordinates: {
+            lat: 37.422069,
+            lon: -122.087461
+          },
+          name: 'My office',
+          notes: 'This is the location of my office.'
+        }]
+      };
+
+      should.not.exist(err);
+      should.exist(trip);
+      trip.should.eql(expected);
+      done();
+    });
   });
 });

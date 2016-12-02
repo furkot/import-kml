@@ -1,0 +1,170 @@
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Santa Fe - Boston</name>
+    <description>ddd</description>
+    <Placemark>
+      <name>826 East Palace Avenue, Santa Fe, NM 87501, USA</name>
+      <address>826 East Palace Avenue, Santa Fe, NM 87501, USA</address>
+      <Point>
+        <coordinates>-105.924698,35.682785,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shell</name>
+      <address>3859-3867 Highway 14, Santa Fe, NM 87508, USA</address>
+      <Point>
+        <coordinates>-106.065979,35.491661,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="duration">
+          <value>600000</value>
+        </Data>
+        <Data name="icon">
+          <value>25</value>
+        </Data>
+        <Data name="url">
+          <value>http://www.mygasfeed.com/locations/details/94154</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>The Dickey House Bed &amp; Breakfast</name>
+      <address>The Dickey House Bed &amp; Breakfast</address>
+      <Point>
+        <coordinates>-92.907585,37.336390,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="url">
+          <value>/book/venere?id=436490</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Alliance Inn &amp; Suites</name>
+      <address>402-460 Historic U.S. 66, St. Robert, MO 65584, USA</address>
+      <Point>
+        <coordinates>-92.160240,37.821970,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="url">
+          <value>http://www.easytobook.com/en/united-states-of-america/missouri/st-robert/microtel-inn-suites-139992/?hotel_id=139992&amp;utm_campaign=United%20States&amp;utm_term=St.%20Robert&amp;utm_source=code42day&amp;utm_medium=affiliate&amp;amu=280826683#stars=2</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Cook, IL, USA</name>
+      <address>1011 South State Street, Chicago, IL 60605, USA</address>
+      <Point>
+        <coordinates>-87.626953,41.869561,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="duration">
+          <value>3600000</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Swedish American Museum Center</name>
+      <address>5211 N. Clark St., Far North, Chicago, IL, 60640</address>
+      <Point>
+        <coordinates>-87.668301,41.976669,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="duration">
+          <value>3600000</value>
+        </Data>
+        <Data name="icon">
+          <value>33</value>
+        </Data>
+        <Data name="url">
+          <value>http://www.fodors.com/world/north-america/usa/illinois/chicago/review-194863.html</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>American Science and Surplus</name>
+      <address>5316 N. Milwaukee Avenue, Chicago, IL</address>
+      <Point>
+        <coordinates>-87.769703,41.976855,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="duration">
+          <value>3600000</value>
+        </Data>
+        <Data name="icon">
+          <value>33</value>
+        </Data>
+        <Data name="url">
+          <value>http://www.atlasobscura.com/places/american-science-and-surplus</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Red Roof Inn Coldwater</name>
+      <address>Willowbrook Lane, Coldwater, MI 49036, USA</address>
+      <Point>
+        <coordinates>-84.971803,41.933653,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="url">
+          <value>http://www.booking.com/hotel/us/red-roof-inn-coldwater.html?aid=344132</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sheetz</name>
+      <address>2411 N Ridge Rd E, Ashtabula, OH</address>
+      <Point>
+        <coordinates>-80.761147,41.876354,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="duration">
+          <value>600000</value>
+        </Data>
+        <Data name="icon">
+          <value>25</value>
+        </Data>
+        <Data name="url">
+          <value>http://www.mygasfeed.com/locations/details/48723</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Embassy Suites Boston/Waltham</name>
+      <address>550 Winter Street, Waltham, MA 02451, USA</address>
+      <Point>
+        <coordinates>-71.266015,42.395993,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="url">
+          <value>http://www.booking.com/hotel/us/embassy-suites-boston-waltham.html?aid=344132</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Spellman Museum of Stamps &amp; Postal History</name>
+      <address>Weston, MA</address>
+      <Point>
+        <coordinates>-71.307111,42.348472,0</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="duration">
+          <value>3600000</value>
+        </Data>
+        <Data name="icon">
+          <value>47</value>
+        </Data>
+        <Data name="url">
+          <value>http://en.wikipedia.org/wiki/Spellman_Museum_of_Stamps_&amp;_Postal_History</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Boston, MA</name>
+      <address>Boston, MA, USA</address>
+      <Point>
+        <coordinates>-71.059773,42.358431,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
