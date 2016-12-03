@@ -2,6 +2,7 @@
   "destination": "Trip set",
   "stops": [ {
     "name": "Spacer",
+    "notes": "",
     "coordinates": {
       "lon": 18.49863214,
       "lat": 54.34437342
