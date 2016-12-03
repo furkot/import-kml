@@ -1,13 +1,12 @@
 {
-  "destination": "Santa Fe - Boston",
-  "notes": "ddd",
   "stops": [
     {
       "name": "826 East Palace Avenue, Santa Fe, NM 87501, USA",
       "coordinates": {
         "lon": -105.924698,
         "lat": 35.682785
-      }
+      },
+      "address": "826 East Palace Avenue, Santa Fe, NM 87501, USA"
     },
     {
       "name": "Shell",
@@ -15,6 +14,7 @@
         "lon": -106.065979,
         "lat": 35.491661
       },
+      "address": "3859-3867 Highway 14, Santa Fe, NM 87508, USA",
       "pin": 25,
       "url": "http://www.mygasfeed.com/locations/details/94154"
     },
@@ -24,6 +24,7 @@
         "lon": -92.907585,
         "lat": 37.33639
       },
+      "address": "The Dickey House Bed & Breakfast",
       "url": "/book/venere?id=436490"
     },
     {
@@ -32,6 +33,7 @@
         "lon": -92.16024,
         "lat": 37.82197
       },
+      "address": "402-460 Historic U.S. 66, St. Robert, MO 65584, USA",
       "url": "http://www.easytobook.com/en/united-states-of-america/missouri/st-robert/microtel-inn-suites-139992/?hotel_id=139992&utm_campaign=United%20States&utm_term=St.%20Robert&utm_source=code42day&utm_medium=affiliate&amu=280826683#stars=2"
     },
     {
@@ -39,7 +41,8 @@
       "coordinates": {
         "lon": -87.626953,
         "lat": 41.869561
-      }
+      },
+      "address": "1011 South State Street, Chicago, IL 60605, USA"
     },
     {
       "name": "Swedish American Museum Center",
@@ -47,6 +50,7 @@
         "lon": -87.668301,
         "lat": 41.976669
       },
+      "address": "5211 N. Clark St., Far North, Chicago, IL, 60640",
       "pin": 33,
       "url": "http://www.fodors.com/world/north-america/usa/illinois/chicago/review-194863.html"
     },
@@ -56,6 +60,7 @@
         "lon": -87.769703,
         "lat": 41.976855
       },
+      "address": "5316 N. Milwaukee Avenue, Chicago, IL",
       "pin": 33,
       "url": "http://www.atlasobscura.com/places/american-science-and-surplus"
     },
@@ -65,6 +70,7 @@
         "lon": -84.971803,
         "lat": 41.933653
       },
+      "address": "Willowbrook Lane, Coldwater, MI 49036, USA",
       "url": "http://www.booking.com/hotel/us/red-roof-inn-coldwater.html?aid=344132"
     },
     {
@@ -73,6 +79,7 @@
         "lon": -80.761147,
         "lat": 41.876354
       },
+      "address": "2411 N Ridge Rd E, Ashtabula, OH",
       "pin": 25,
       "url": "http://www.mygasfeed.com/locations/details/48723"
     },
@@ -82,6 +89,7 @@
         "lon": -71.266015,
         "lat": 42.395993
       },
+      "address": "550 Winter Street, Waltham, MA 02451, USA",
       "url": "http://www.booking.com/hotel/us/embassy-suites-boston-waltham.html?aid=344132"
     },
     {
@@ -90,6 +98,7 @@
         "lon": -71.307111,
         "lat": 42.348472
       },
+      "address": "Weston, MA",
       "pin": 47,
       "url": "http://en.wikipedia.org/wiki/Spellman_Museum_of_Stamps_&_Postal_History"
     },
@@ -98,7 +107,10 @@
       "coordinates": {
         "lon": -71.059773,
         "lat": 42.358431
-      }
+      },
+      "address": "Boston, MA, USA"
     }
-  ]
+  ],
+  "destination": "Santa Fe - Boston",
+  "notes": "ddd"
 }
