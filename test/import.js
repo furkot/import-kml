@@ -52,6 +52,8 @@ describe('furkot import kml', function() {
     var stream = fs.createReadStream(__dirname + '/fixtures/invalid.kml');
     parse(stream, function(err, trip) {
       should.exist(err);
+      err.should.have.property('err', 'invalid');
+      err.should.have.property('message');
       should.not.exist(trip);
       done();
     });
