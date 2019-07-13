@@ -1,6 +1,6 @@
 {
   "name": "furkot-import-kml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Import KML files into node.",
   "author": {
     "name": "Damian Krzeminski",
