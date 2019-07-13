@@ -48,6 +48,17 @@ describe('furkot import kml', function() {
     });
   });
 
+  it('empty KML', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/empty.kml');
+    parse(stream, function(err, trip) {
+      should.not.exist(err);
+      trip.should.eql({
+        destination: 'empty'
+      });
+      done();
+    });
+  });
+
   it('should raise error on invalid XML file', function(done) {
     var stream = fs.createReadStream(__dirname + '/fixtures/invalid.kml');
     parse(stream, function(err, trip) {
