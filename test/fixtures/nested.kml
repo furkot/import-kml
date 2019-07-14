@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+  <name>Peaks and Routes</name>
+  <description><![CDATA[<p><a href="https://www.14ers.com"><img src="https://www.14ers.com/images/site_logomain.png"/></a></p>
+
+Content &copy; 14ers.com&reg;, 14ers Inc.<br> 
+
+This information is for personal use only. Distribution or sale is strictly prohibited.
+<br><br> 
+Last Updated: 2019-06-05, by Bill Middlebrook]]></description>
+  <Folder>
+    <name>14ers</name>
+    <Document>
+      <name>Elk</name>
+      <Style id="ranked1">
+        <IconStyle>
+          <Icon>
+            <href>https://www.14ers.com/images/googlemarkers_v2/gmark_14er.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <BalloonStyle>
+          <text><![CDATA[<div style='width:200px;overflow:hidden;margin-bottom:5px;'><h3><a href='https://www.14ers.com/photos/peakmain.php?peak=$[PkParent]'>$[PkName]</a></h3>
+        $[PkElev]&lsquo;
+        <br><br> 
+        <img src='https://www.14ers.com/images/icon_weather_medium.png' style='width:16px;height:16px;border:0px;float:left;'><a target='_blank' href='http://forecast.weather.gov/MapClick.php?FcstType=text&TempBox=1&WeatherBox=1&PoPBox=1&textField1=$[PkLat]&textField2=$[PkLon]&Submit=Submit&MapType=3&CiTemplate=0'>Weather</a>
+        <br>
+</div>]]></text>
+        </BalloonStyle>
+      </Style>
+      <Placemark>
+        <name>Castle Peak</name>
+        <styleUrl>#ranked1</styleUrl>
+        <ExtendedData>
+          <Data name="PkName">
+            <value>Castle Peak</value>
+          </Data>
+          <Data name="PkParent">
+            <value>Castle+Peak</value>
+          </Data>
+          <Data name="PkElev">
+            <value>14,265</value>
+          </Data>
+          <Data name="PkNum">
+            <value>150</value>
+          </Data>
+          <Data name="PkLat">
+            <value>39.009647</value>
+          </Data>
+          <Data name="PkLon">
+            <value>-106.86144</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>-106.86144,39.009647,0</coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Folder>
+  <Folder>
+    <name>14er Routes</name>
+    <Document>
+      <name>Mt. Antero - West Slopes</name>
+      <Style id="style1">
+        <LineStyle>
+          <color>ffff4040</color>
+          <width>6</width>
+        </LineStyle>
+      </Style>
+      <Placemark>
+        <name>Mt. Antero</name>
+        <description><![CDATA[<div style='width:200px;overflow:hidden;margin-bottom:5px;'>West Slopes<br><br><a target='_blank' href='https://www.14ers.com/route.php?route=ante1&peak=Mt.+Antero'>View Route Description</a><br><br></div>]]></description>
+        <styleUrl>#style1</styleUrl>
+        <MultiGeometry>
+          <LineString>
+            <coordinates>
+              -106.2915802281,38.7100167666,2868.48 -106.2911389209,38.7097972445,2874.27 -106.2911389209,38.7097972445,2874.27
+            </coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Document>
+  </Folder>
+</Folder>
+</kml>

@@ -1,0 +1,40 @@
+{
+  "destination": "Peaks and Routes",
+  "notes": "<p><a href=\"https://www.14ers.com\"><img src=\"https://www.14ers.com/images/site_logomain.png\"/></a></p>\n\nContent &copy; 14ers.com&reg;, 14ers Inc.<br> \n\nThis information is for personal use only. Distribution or sale is strictly prohibited.\n<br><br> \nLast Updated: 2019-06-05, by Bill Middlebrook",
+  "stops": [
+    {
+      "name": "Castle Peak",
+      "coordinates": {
+        "lon": -106.86144,
+        "lat": 39.009647
+      }
+    }
+  ],
+  "track": [
+    [
+      {
+        "coordinates": {
+          "lon": -106.2915802281,
+          "lat": 38.7100167666
+        },
+        "parent": {
+          "index": 0,
+          "name": "Mt. Antero",
+          "notes": "<div style='width:200px;overflow:hidden;margin-bottom:5px;'>West Slopes<br><br><a target='_blank' href='https://www.14ers.com/route.php?route=ante1&peak=Mt.+Antero'>View Route Description</a><br><br></div>"
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -106.2911389209,
+          "lat": 38.7097972445
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -106.2911389209,
+          "lat": 38.7097972445
+        }
+      }
+    ]
+  ]
+}
