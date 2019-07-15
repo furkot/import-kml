@@ -27,7 +27,7 @@ describe('furkot import kml', function() {
     });
   });
 
-  it.only('should parse kml with nested folders', function(done) {
+  it('should parse kml with nested folders', function(done) {
     var stream = fs.createReadStream(__dirname + '/fixtures/nested.kml');
     parse(stream, function(err, trip) {
       var expected = require('./fixtures/nested.json');

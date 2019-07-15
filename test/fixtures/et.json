@@ -12,6 +12,11 @@
     "coordinates": {
       "lon": 18.49863214,
       "lat": 54.34437342
+    },
+    "parent": {
+      "index": 0,
+      "name": "new track 2014-06-08 18:49:58",
+      "notes": " Length: 2.2 "
     }
   }, {
     "coordinates": {
