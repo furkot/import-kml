@@ -1,4 +1,11 @@
 
+1.1.0 / 2022-01-04
+==================
+
+ * rewrite in modern javascript
+ * replace mocha with tape
+ * fix test to reflect naming tracks
+
 1.0.4 / 2019-07-13
 ==================
 
