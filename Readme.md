@@ -1,6 +1,5 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
 
 # furkot-import-kml
 
@@ -39,6 +38,3 @@ MIT © [Damian Krzeminski](https://code42day.com)
 
 [travis-url]: https://travis-ci.org/furkot/import-kml
 [travis-image]: https://img.shields.io/travis/furkot/import-kml.svg
-
-[gemnasium-image]: https://img.shields.io/gemnasium/furkot/import-kml.svg
-[gemnasium-url]: https://gemnasium.com/furkot/import-kml
