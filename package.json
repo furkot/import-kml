@@ -18,8 +18,7 @@
     "sax-super-stream": "^1.0.1"
   },
   "devDependencies": {
-    "jshint": "~2",
-    "tape": "~5"
+    "jshint": "~2"
   },
   "scripts": {
     "test": "make check"
