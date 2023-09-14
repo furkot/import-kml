@@ -1,5 +1,5 @@
 {
-  "name": "furkot-import-kml",
+  "name": "@furkot/import-kml",
   "version": "1.1.0",
   "description": "Import KML files into node.",
   "author": {

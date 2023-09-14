@@ -33,8 +33,8 @@ MIT © [Damian Krzeminski](https://code42day.com)
 [Furkot]: https://furkot.com
 [KML]: https://developers.google.com/kml
 
-[npm-image]: https://img.shields.io/npm/v/furkot-import-kml.svg
-[npm-url]: https://npmjs.org/package/furkot-import-kml
+[npm-image]: https://img.shields.io/npm/v/@furkot/import-kml
+[npm-url]: https://npmjs.org/package/@furkot/import-kml
 
 [build-url]: https://github.com/furkot/import-kml/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/furkot/import-kml/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/furkot/import-kml/check.yaml?branch=main
