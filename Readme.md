@@ -1,7 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][build-image]][build-url]
 
-# furkot-import-kml
+# @furkot/import-kml
 
 Import [KML] files into [Furkot] road trip planner.
 
@@ -13,17 +13,15 @@ $ npm install --save furkot-import-kml
 
 ## Usage
 
-Use as a transform stream: pipe network responses, files etc. and listen on `data` event.
+Use with a web transform stream: pipe network responses, files etc.
 
 ```js
-var furkotImportKml = require('furkot-import-kml');
-var request = require('getlet');
+const furkotImportKml = require('@furkot/import-kml');
+const { body } = await fetch('https://example.com/my.kml');
+const from = body.pipeThrough(new TextDecoderStream());
+const trip = await furkotImportKml(from);
 
-request('https://example.com/my.kml')
-  .pipe(furkotImportKml)
-  .on('data', function(trip) {
-    console.log(trip);
-  });
+console.log(trip);
 ```
 
 ## License
