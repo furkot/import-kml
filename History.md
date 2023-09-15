@@ -1,4 +1,10 @@
 
+2.0.0 / 2023-09-15
+==================
+
+ * use browser enabled sax-super-stream
+ * change name to @furkot/import-kml
+
 1.1.0 / 2022-01-04
 ==================
 
