@@ -16,7 +16,8 @@ $ npm install --save furkot-import-kml
 Use with a web transform stream: pipe network responses, files etc.
 
 ```js
-const furkotImportKml = require('@furkot/import-kml');
+import furkotImportKml from '@furkot/import-kml';
+
 const { body } = await fetch('https://example.com/my.kml');
 const from = body.pipeThrough(new TextDecoderStream());
 const trip = await furkotImportKml(from);
