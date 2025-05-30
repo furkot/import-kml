@@ -18,7 +18,7 @@
     "sax-super-stream": "^2.0.0"
   },
   "devDependencies": {
-    "jshint": "~2"
+    "@biomejs/biome": "^1.9.4"
   },
   "scripts": {
     "test": "make check"
