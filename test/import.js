@@ -1,20 +1,18 @@
-const test = require('node:test');
-const assert = require('node:assert/strict');
-const fs = require('node:fs/promises');
-const path = require('node:path');
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import test from 'node:test';
 
-const parse = require('..');
-
-/* global TextDecoderStream */
+import parse from '../lib/import.js';
 
 async function createFromStream(file) {
-  const name = path.resolve(__dirname, file);
+  const name = path.resolve(import.meta.dirname, file);
   const handle = await fs.open(name);
   return handle.readableWebStream().pipeThrough(new TextDecoderStream());
 }
 
 async function readJSON(file) {
-  const name = path.resolve(__dirname, file);
+  const name = path.resolve(import.meta.dirname, file);
   return JSON.parse(await fs.readFile(name, 'utf8'));
 }
 
